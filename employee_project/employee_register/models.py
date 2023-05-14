@@ -14,3 +14,4 @@ class Employee(models.Model):
     mobile= models.CharField(max_length=15)
     position= models.ForeignKey(Position,on_delete=models.CASCADE)
     
+    
